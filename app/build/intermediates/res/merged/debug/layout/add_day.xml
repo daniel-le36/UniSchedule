@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7dfff0">
+
+    <HorizontalScrollView
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:id="@+id/horizontalScrollView4"
+        android:layout_below="@+id/imageButton6"
+        android:layout_marginTop="32dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/category_layout">
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/imageButton6"
+        android:background="#0cadfe"
+        android:src="@drawable/cancel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:onClick="cancel"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:ems="10"
+        android:id="@+id/desc"
+        android:maxLines="20"
+        android:lines="10"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Date"
+        android:id="@+id/add_date"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="#e49558"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/imageButton6"
+        android:layout_toEndOf="@+id/imageButton6" />
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/submit"
+        android:background="#0cadfe"
+        android:src="@drawable/checkmark"
+        android:layout_alignParentEnd="true"
+        android:layout_alignRight="@+id/desc"
+        android:onClick="submit_item" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Start Time:"
+        android:id="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/horizontalScrollView4" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="End Time:"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="--Select a Time--"
+        android:id="@+id/start_time"
+        android:layout_marginLeft="10dp"
+        android:onClick="showTimePickerDialog"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4"
+        android:inputType="time" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/new_category"
+        android:background="@drawable/red_circle"
+        android:src="@drawable/circle_plus"
+        android:onClick="add_category"
+        android:layout_alignTop="@+id/horizontalScrollView4"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="--Select a Time--"
+        android:id="@+id/end_time"
+        android:onClick="showTimePickerDialog"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignStart="@+id/start_time"
+        android:inputType="time" />
+
+</RelativeLayout>

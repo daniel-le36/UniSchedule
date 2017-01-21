@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UniSchedule</string>
+    <string name="title_activity_basic">asic</string>
+    <string name="category">Category Name</string>
+</resources>

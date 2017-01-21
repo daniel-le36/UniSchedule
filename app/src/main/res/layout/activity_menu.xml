@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical" android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:weightSum="1"
+tools:context="com.example.daniel.unischedule.Menu">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:id="@+id/all"
+    android:layout_gravity="center_horizontal"
+    android:layout_weight="0.12"
+    android:background="#424fe3"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:text="See all items"
+    android:textAlignment="center"
+    android:gravity="center_vertical"
+    android:onClick="openAll"/>
+
+<CalendarView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/calendarView"
+    android:layout_below="@+id/all"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    android:layout_above="@+id/horizontalScrollView2" />
+
+<HorizontalScrollView
+    android:layout_width="325dp"
+    android:layout_height="150dp"
+    android:id="@+id/horizontalScrollView2"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true"
+    android:background="#6a99c5"
+    android:layout_toStartOf="@+id/open">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/item_view">
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nothing to display"
+            android:id="@+id/default_message"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+</HorizontalScrollView>
+
+<TextView
+    android:layout_width="50dp"
+    android:layout_height="150dp"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="See More"
+    android:id="@+id/open"
+    android:textAlignment="center"
+    android:background="#5235ae54"
+    android:gravity="center_vertical|center_horizontal"
+    android:layout_alignTop="@+id/horizontalScrollView2"
+    android:layout_alignParentEnd="true"
+    android:onClick="openMore"/>
+
+</RelativeLayout>

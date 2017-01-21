@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="420dpi"
+    format="7"
+    timestamp="26072906748937"
+    token="-6456423142179868883" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+
+    <build timestamp="9626826103270" >
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="22668207447926"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\builds\debug\22668207447926\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="22689327296826"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\builds\debug\22689327296826\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="25918017568887"
+        verifier="FIELD_TYPE_CHANGE" >
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_0c3e5a170f684d8648ee5e2e0226be6303cd18bf\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f44e6b6f4c03246c9103d1430aebdf044a0d448f\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_0c19512723b924177e8dfb7bd9f4d18e6be10fea\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_2dc0b4ea4d0c979d13a51e5026c28c5ec8f782d6\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_2533c76dc7203d3901fb0690cf125e30ea32a598\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e5255758047680ce7f3843a824cbef1562244a40\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_0b3d6b561857a6f77ebbff22427ec1299c2be1a1\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_dfda34664a32309e7fdd2539b9aa4544ba39c56b\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_4c80f7fb2f5ea08f83067adf497df645436d319b\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\sqliteassethelper-2.0.1_b9e654a718b5ad2b6c8367f7c00f699adc225468\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_6b2a16f34db3eb8bc407714b0676b28828e82357\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="26072906748937" >
+        <artifact
+            location="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+
+</instant-run>

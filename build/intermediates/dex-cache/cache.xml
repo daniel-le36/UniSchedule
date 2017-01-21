@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_2533c76dc7203d3901fb0690cf125e30ea32a598\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_4c80f7fb2f5ea08f83067adf497df645436d319b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.readystatesoftware.sqliteasset\sqliteassethelper\2.0.1\d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f\sqliteassethelper-2.0.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\sqliteassethelper-2.0.1_b9e654a718b5ad2b6c8367f7c00f699adc225468\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_0b3d6b561857a6f77ebbff22427ec1299c2be1a1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2ff5a0b7fb9a1161e7a1dc53b886802307d6133d">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f44e6b6f4c03246c9103d1430aebdf044a0d448f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_0c19512723b924177e8dfb7bd9f4d18e6be10fea\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_dfda34664a32309e7fdd2539b9aa4544ba39c56b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Daniel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_0c3e5a170f684d8648ee5e2e0226be6303cd18bf\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2d1ea640a9dde69ed335e47e2af483210e275a74">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e5255758047680ce7f3843a824cbef1562244a40\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_6b2a16f34db3eb8bc407714b0676b28828e82357\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\UniSchedule\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_2dc0b4ea4d0c979d13a51e5026c28c5ec8f782d6\classes.dex" />
+    </item>
+
+</items>

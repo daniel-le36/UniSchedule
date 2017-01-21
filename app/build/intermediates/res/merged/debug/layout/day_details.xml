@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Date"
+        android:id="@+id/date"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="#e49558"
+
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:layout_toStartOf="@+id/add_detail"
+        android:layout_alignBottom="@+id/add_detail" />
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/add_detail"
+        android:background="#0cadfe"
+        android:src="@drawable/plus"
+        android:onClick="add_new"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/detail_scrollview"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/date">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/detail_view"></LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/cancel"
+        android:background="#0cadfe"
+        android:src="@drawable/cancel"
+        android:onClick="cancel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
